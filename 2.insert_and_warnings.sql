@@ -11,11 +11,11 @@ VALUES ("Shibani", "Das", 22);
 
 -- order can be changed while inserting 
 INSERT INTO people (last_name, first_name, age)
-VALUES ("Purohit", "Sougat", 21);
+VALUES ("Rog", "Tero", 21);
 
 -- colmuns not compulsory until not specified
 INSERT INTO people (first_name, last_name)
-VALUES ("Siba", "Palo");
+VALUES ("Cemen", "Clen");
 
 SELECT * FROM people;
 
