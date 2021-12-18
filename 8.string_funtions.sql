@@ -132,8 +132,8 @@ SELECT REPLACE("Fred Liu", " ", " and ");
 -- "Fred and Liu"
 
 # [1] CASE SENSTIVE 
-SELECT REPLACE("Squid Game was fun", "a", "A");
--- "Squid GAme wAs fun"
+SELECT REPLACE("Old school", "o", "9");
+-- "Old sch99l" didnt replace the capital O , case sensitivw "O", "o"
 
 # [2] USE BOTH REPLACE AND CONCAT 
 SELECT REPLACE(
